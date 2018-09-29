@@ -20,13 +20,27 @@ conda install jupyter
 Alternatively, you can use a Docker image that exposes a Jupyter Notebook with all required dependencies. To build this image ensure you have both [docker](https://www.docker.com/)
 
 ```
-docker build nmt-pycones18 .
+docker pull pablovargasibarra/nmt-pycones2018
 ```
 
 After the build you can start the container as
 
 ```
-docker run --rm -it --ipc=host -p 8888:8888 nmt-pycones18
+docker run --rm -it --ipc=host -p 8888:8888 pablovargasibarra/nmt-pycones2018
 ```
 
-you will be provided an URL through which you can connect to the Jupyter notebook.
+you access the repository path and activate the environment
+
+```
+cd home/nmt-pycones2018/
+```
+
+```
+source activate pycones2018
+```
+
+you will be provided an URL through which you can connect to the Jupyter notebook
+
+```
+jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+```
