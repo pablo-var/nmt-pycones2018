@@ -15,7 +15,7 @@ All of them can be installed via `conda` (`anaconda`), e.g.
 conda install jupyter
 ```
 
-## Docker image (in process)
+## Docker image
 
 Alternatively, you can use a Docker image that exposes a Jupyter Notebook with all required dependencies. To build this image ensure you have both [docker](https://www.docker.com/)
 
@@ -44,3 +44,7 @@ you will be provided an URL through which you can connect to the Jupyter noteboo
 ```
 jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
 ```
+
+## Google Colab
+
+Alternatively, you can use google-colab directly by uploading the notebook in google-colab/nmt-pycones.ipynb. Make sure to launch Python 3 with GPU support.
