@@ -1,4 +1,4 @@
-# Neural Machine Translation with attention. Pycones-2018. (Video)(https://www.youtube.com/watch?v=4wenaXJlkQU)
+# Neural Machine Translation with attention. Pycones-2018. [Video](https://www.youtube.com/watch?v=4wenaXJlkQU)
 
 In this repository we provide the material in order to apply the model explained in the talk as well as the presentation.
 
